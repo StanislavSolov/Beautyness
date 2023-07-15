@@ -1,0 +1,119 @@
+@import "./fonts/fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --primaryColor: #5C8692;
+  --darkColor: #1E2C30;
+  --secondaryColor: #7A9CA5;
+  --primaryTextColor: #141414;
+}
+
+html {
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  color: var(--primaryTextColor);
+}
+
+header nav {
+  height: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.left-block {
+  display: flex;
+  align-items: center;
+}
+
+.left-block > * {
+  display: flex;
+}
+
+.logo-block {
+  margin-left: 60px;
+  border: 1px solid #000;
+}
+
+.logo-block img {
+  width: 33px;
+  height: 33px;
+}
+
+.logo-block h3 {
+  font-size: 28px;
+  font-weight: 700;
+
+  margin-left: 12px;
+}
+
+.phone-block {
+  margin-left: 46px;
+}
+
+.phone-block h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Manrope';
+
+  margin-left: 12px;
+}
+
+.right-block {
+  display: flex;
+  align-items: center;
+
+  margin-right: 10px;
+}
+
+.right-block > * {
+  display: flex;
+}
+
+.right-block ul {
+  width: 450px;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 18px;
+  font-family: 'Manrope';
+  color: #555555;
+
+  margin-right: 32px;
+}
+
+.right-block .social-block {
+  margin-right: 32px;
+}
+
+.right-block .social-block > *:not(:last-child) {
+  margin-right: 30px;
+}
+
+.reservation-block {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondaryColor);
+
+  margin-right: 60px;
+}
+
+.reservation-block img {
+  width: 14px;
+  height: 15px;
+}
+
+.reservation-block h4 {
+  color: #ffffff;
+  font-size: 18px;
+
+  margin-left: 12px;
+}
