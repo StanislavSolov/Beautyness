@@ -1,3 +1,2 @@
 # Beautyness
-Advanced layout for beauty site
-Using CSS & HTML
+Advanced layout for beauty site using CSS & HTML
