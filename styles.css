@@ -114,6 +114,7 @@ header nav {
 .reservation-block h4 {
   color: #ffffff;
   font-size: 18px;
-
+  text-transform: uppercase;
+  
   margin-left: 12px;
 }
