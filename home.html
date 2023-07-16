@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
@@ -15,17 +16,17 @@
       </div>
       <div class="phone-block">
         <img src="./imgs/phone.svg" alt="phone">
-        <h4>Call Us - (+22) 123 456 7890</h4>
+        <h4><a href="tel: +221234567890">Call Us - (+22) 123 456 7890</a></h4>
       </div>
     </div>
 
     <div class="right-block">
       <ul>
-        <li>Home</li>
-        <li>Pages</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
       <div class="social-block">
         <img src="./imgs/facebook.svg" alt="facebook icon">
@@ -39,9 +40,32 @@
     </div>
   </nav>
 
-  <div class="header-content">
-    
+  <div class="header-wrapper">
+    <div class="header-background">
+      <div class="header-background__1"></div>
+      <div class="header-background__2">
+        <img src="./imgs/header-background__2.jpg" alt="header background">
+      </div>
+    </div>
+    <div class="header-content">
+      <section class="header-section">
+        <div class="header-section__welcome">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 11L19.56 8.22004L19.9 4.54004L16.29 3.72004L14.4 0.540039L11 2.00004L7.6 0.540039L5.71 3.72004L2.1 4.53004L2.44 8.21004L0 11L2.44 13.78L2.1 17.47L5.71 18.29L7.6 21.47L11 20L14.4 21.46L16.29 18.28L19.9 17.46L19.56 13.78L22 11ZM12 16H10V14H12V16ZM12 12H10V6.00004H12V12Z" fill="#5C8692"/>
+          </svg>
+          <h6>Welcome to Beautyness!!!</h6>
+        </div>
+        <h1>Beauty is power a smile is its sword.</h1>
+        <p>There are many variation of passages are Ipsum available, majority have suffered alteration in some form.</p>
+        <button>Make a reservation</button>
+      </section>
+      <div class="header-content__image">
+        <img src="./imgs/header-content__image.jpg" alt="header content image">
+      </div>
+    </div>
+    <div class="header-content__border"></div>
   </div>
+
 </header>
 </body>
 </html>
