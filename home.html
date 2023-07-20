@@ -29,14 +29,14 @@
         <li><a href="#">Contact</a></li>
       </ul>
       <div class="social-block">
-        <img src="./imgs/facebook.svg" alt="facebook icon">
-        <img src="./imgs/twitter.svg" alt="twitter icon">
-        <img src="./imgs/linkedin.svg" alt="linkedin icon">
+        <a href="#"><img src="./imgs/facebook.svg" alt="facebook icon"></a>
+        <a href="#"><img src="./imgs/twitter.svg" alt="twitter icon"></a>
+        <a href="#"><img src="./imgs/linkedin.svg" alt="linkedin icon"></a>
       </div>
-      <div class="reservation-block">
+      <button class="reservation-block">
         <img src="./imgs/calendar.svg" alt="calendar icon">
-        <h4>reservation</h4>
-      </div>
+        <b>reservation</b>
+      </button>
     </div>
   </nav>
 
@@ -51,7 +51,9 @@
       <section class="header-section">
         <div class="header-section__welcome">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M22 11L19.56 8.22004L19.9 4.54004L16.29 3.72004L14.4 0.540039L11 2.00004L7.6 0.540039L5.71 3.72004L2.1 4.53004L2.44 8.21004L0 11L2.44 13.78L2.1 17.47L5.71 18.29L7.6 21.47L11 20L14.4 21.46L16.29 18.28L19.9 17.46L19.56 13.78L22 11ZM12 16H10V14H12V16ZM12 12H10V6.00004H12V12Z" fill="#5C8692"/>
+            <path
+              d="M22 11L19.56 8.22004L19.9 4.54004L16.29 3.72004L14.4 0.540039L11 2.00004L7.6 0.540039L5.71 3.72004L2.1 4.53004L2.44 8.21004L0 11L2.44 13.78L2.1 17.47L5.71 18.29L7.6 21.47L11 20L14.4 21.46L16.29 18.28L19.9 17.46L19.56 13.78L22 11ZM12 16H10V14H12V16ZM12 12H10V6.00004H12V12Z"
+              fill="#5C8692"/>
           </svg>
           <h6>Welcome to Beautyness!!!</h6>
         </div>
@@ -65,7 +67,105 @@
     </div>
     <div class="header-content__border"></div>
   </div>
-
 </header>
+
+<main>
+  <div class="article-block">
+    <div class="article-block__wrapper">
+      <article>
+        <img src="./imgs/article-block__item1.jpg" alt="article image 1">
+        <h3>Spa & Massage</h3>
+        <p>If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.</p>
+        <button>read more</button>
+      </article>
+      <article>
+        <img src="./imgs/article-block__item2.jpg" alt="article image 2">
+        <h3>Hair & Beauty</h3>
+        <p>If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.</p>
+        <button>read more</button>
+      </article>
+      <article>
+        <img src="./imgs/article-block__item3.jpg" alt="article image 3">
+        <h3>Body Treatments</h3>
+        <p>If you are going to use a passage offer Lorem Ipsum, you need to be sure hidden in the middle of text.</p>
+        <button>read more</button>
+      </article>
+    </div>
+  </div>
+
+  <div class="about-block">
+    <div class="about-block-content">
+      <section>
+        <h5>about us</h5>
+        <h2>The Beauty is about <br>
+          being Comfortable <br>
+          in your own skin!
+        </h2>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, buying to injected humour, or randomised words which don't look even many desktop publishing
+          packages.
+        </p>
+        <div class="about-block-content__sub-content">
+          <article>
+            <img src="./imgs/about-block-content__article-img1.svg" alt="sub content image 1">
+            <h3>Beauty Experts</h3>
+          </article>
+          <article>
+            <img src="./imgs/about-block-content__article-img2.svg" alt="sub content image 2">
+            <h3>Great Services</h3>
+          </article>
+          <article>
+            <img src="./imgs/about-block-content__article-img3.svg" alt="sub content image 3">
+            <h3>100% Genuine</h3>
+          </article>
+        </div>
+      </section>
+      <div class="about-block-content__image">
+        <img src="./imgs/about-block-content__image.jpg" alt="about us image">
+      </div>
+    </div>
+  </div>
+
+  <div class="appointment-block">
+    <div class="appointment-block__wrapper">
+      <section>
+        <h5>Flat Discount</h5>
+        <h2>Claim upto 50% off on <br>
+          the most popular <br>
+          services...
+        </h2>
+        <p>There are many variations of passages of Lorem Ipsum available, <br>but the majority have suffered alteration in
+          some form, buying to injected humour, or randomised words.
+        </p>
+        <div class="discount-block">
+          <div class="discount-block__contacts">
+            <div>
+              <h3>MAIL US :</h3>
+              <a href="mailto: info@beautyness.com">info@beautyness.com</a>
+            </div>
+            <div>
+              <h3>CALL US :</h3>
+              <a href="tel: +221234568009">(+22) 123 4568 009</a>
+            </div>
+          </div>
+          <div class="discount-block__discount">
+            <h4>Get Flat</h4>
+            <h2><span>50</span>%</h2>
+            <h3>Discount</h3>
+          </div>
+        </div>
+      </section>
+      <form method="get">
+        <input type="text" name="name">
+        <input type="email" name="email">
+        <input type="tel" name="tel">
+        <input type="text" name="service">
+        <input type="text" name="message">
+        <button type="submit">GET AN APPOINTMENT</button>
+      </form>
+    </div>
+  </div>
+</main>
 </body>
 </html>
